@@ -1,0 +1,126 @@
+/* dashboard.css */
+
+/* Add styles for navigation bar *
+
+/* Add styles for header */
+header {
+    padding: 50px 0;
+}
+
+/* Add styles for dashboard content */
+section {
+    padding: 50px 0;
+}
+
+/* Add styles for footer */
+footer {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add additional styles for card views */
+.card {
+    margin-bottom: 20px;
+}
+/* dashboard.css */
+
+/* Responsive styles for header */
+@media (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for dashboard content */
+@media (max-width: 768px) {
+    section {
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for card views */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+  
+body {
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-image: url(bgs.jpg); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content flex grow to push footer down */
+section {
+    flex: 1;
+}
+
+/* Responsive styles for header */
+@media (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for dashboard content */
+@media (max-width: 768px) {
+    section {
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for card views */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+#imgs{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+#home{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+
+#profile{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+#dash{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+#login{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+h1{
+    font-size:5.9vw;
+}
+#honrad_pic{
+    min-width: 275px;
+    max-width: 300px;
+    height: 30vh;
+    align-content: center;
+}
